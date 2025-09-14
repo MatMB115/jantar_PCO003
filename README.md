@@ -2,6 +2,9 @@
 >Aluno: Matheus Martins Batista
 > 
 >Professor(s): Bruno Guazzelli Batista e Rodrigo Maximiano Antunes de Almeida
+>
+>https://github.com/MatMB115/jantar_PCO003
+
 ## Objetivo
 Execução da atividade avaliativa de PCO003 sobre o problema clássico de exclusão mútua do "Jantar dos Filósofos" previnindo Deadlock e Starvation.
 
