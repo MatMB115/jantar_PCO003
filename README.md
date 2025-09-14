@@ -12,11 +12,14 @@ Execução da atividade avaliativa de PCO003 sobre o problema clássico de exclu
 
 Para compilar e executar este projeto manualmente, você precisará de:
 
-- **Java Development Kit (JDK) versão 8 ou superior.**
+- **Java Development Kit (JDK) versão 11 ou superior.**
 
 Para verificar se o JDK está instalado e configurado corretamente, abra um terminal e execute:
 ```bash
-java -version
+# java
+java --version
+# compilador
+javac --version
 ```
 
 ## Como Compilar o Programa
@@ -31,13 +34,12 @@ As instruções a seguir partem do princípio de o usuário está no terminal (o
 
 2.  **Navegue até a pasta raiz do projeto.**
     ```bash
-    cd /path/da/atividade/jantar
+    cd /path/da/atividade/jantar_PCO003
     ```
 
 3.  **Compile o código-fonte.**
-    Este comando compila todos os arquivos `.java` localizados em `src/main/java` e move as classes resultantes para diretório `target/classes`.
+    O comando compila todos os arquivos `.java` localizados em `src/main/java` e move as classes resultantes para diretório `target/classes`.
     ```bash
-    # Compila os fontes
     javac -d target/classes src/main/java/org/unifei/imc/*.java
     ```
 
@@ -54,13 +56,12 @@ As instruções a seguir partem do princípio de o usuário está no terminal (o
 
 2.  **Navegue até a pasta raiz do projeto.**
     ```powershell
-    cd C:\caminho\para\a\atividade\jantar
+    cd C:\caminho\para\a\atividade\jantar_PCO003
     ```
 
 3.  **Compile o código-fonte.**
     Este comando compila todos os arquivos `.java` e coloca os arquivos `.class` resultantes no diretório `target/classes`.
     ```powershell
-    # Compila os fontes
     javac -d target/classes src/main/java/org/unifei/imc/*.java
     ```
 
